@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fredoka:wght@300..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#topbar{
+    top:0px;
+    display: block;
+    block-size: 95px;
+    background-color: rgb(154,248,239);
+
+    logo2{
+        float: right;
+    }
+}
+
+.nav{
+    top:0;
+    position: sticky;
+    background-color: rgb(58, 107, 205);
+    padding: 1px;
+
+    ul{
+        list-style-type: none;
+        color:whitesmoke;
+        font-family: "Fredoka", sans-serif;
+        font-weight: 650;
+        font-style: normal;
+        font-size: 20px;
+        overflow: hidden;
+    }
+
+    ul li{
+        float: left;
+    }
+
+    ul li a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 4px 10px;
+        text-decoration: none;
+        margin: 2px;
+    }
+
+    ul li a:hover{
+        color: rgb(241, 255, 161);
+        background-color: rgb(26, 24, 134);
+        text-decoration: underline;
+    }
+}
+
+#info{
+    background-color: rgb(58, 107, 205);
+
+    h1{
+        padding: 3px;
+        margin: 10px;
+        color:whitesmoke;
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-weight: bold;
+        text-decoration: underline;
+        padding:10px;
+        text-shadow: 3px 2px rgb(225, 104, 11);
+    }
+
+    p{
+        margin: 10px;
+        color:whitesmoke;
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-weight: normal;
+        font-size: 19px;
+        padding:10px;
+        text-align: left;
+    }
+
+    
+    img{
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+#footer{
+    background-color: rgb(22, 27, 130);
+    color:whitesmoke;
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    padding:10px;
+}
